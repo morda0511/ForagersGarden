@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <ValheimDir Condition="'$(ValheimDir)' == ''">D:\SteamLibrary\steamapps\common\Valheim</ValheimDir>
+    <BepInExProfile Condition="'$(BepInExProfile)' == ''">$(USERPROFILE)\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Valheim\profiles\Solo Gameplay</BepInExProfile>
+    <BepInExDir>$(BepInExProfile)\BepInEx</BepInExDir>
+    <ManagedDir>$(ValheimDir)\valheim_Data\Managed</ManagedDir>
+  </PropertyGroup>
+</Project>

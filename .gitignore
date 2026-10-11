@@ -1,0 +1,6 @@
+bin/
+obj/
+thunderstore/packs/
+thunderstore/ForagersGarden/plugins/
+*.user
+.vs/
