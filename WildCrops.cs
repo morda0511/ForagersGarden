@@ -6,7 +6,7 @@ using UnityEngine;
 namespace ForagersGarden
 {
     /// <summary>
-    /// Wild plants you can plant: berry bushes (Raspberry, Blueberry, Cloudberry) and wild herbs (Dandelion, Thistle,
+    /// Wild plants you can plant: berry bushes (Raspberry, Blueberry, Cloudberry, Lingonberry) and wild herbs (Dandelion, Thistle,
     /// Fiddlehead, Smoke puff). The grown plant is a copy of the wild one (it keeps its respawn, berries grow back),
     /// the sapling sits in the Cultivator's build list and costs a few of what the plant gives. Because it is a normal
     /// Cultivator sapling with a Pickable as grown prefab, CropMap picks it up and the scarecrow works it like any field
@@ -35,6 +35,7 @@ namespace ForagersGarden
             new Kind { Id = "raspberry", Wild = "RaspberryBush", Bush = true, Radius = 0.8f },
             new Kind { Id = "blueberry", Wild = "BlueberryBush", Bush = true, Radius = 0.8f },
             new Kind { Id = "cloudberry", Wild = "CloudberryBush", Bush = true, Radius = 0.8f },
+            new Kind { Id = "lingonberry", Wild = "LingonberryBush", Bush = true, Radius = 0.8f },
             // Herbs: 1 plants it, a harvest gives 3 (the wild ones give 1, which would never pay back the sapling).
             new Kind { Id = "dandelion", Wild = "Pickable_Dandelion", Radius = 0.4f, Cost = 1, Yield = 3 },
             new Kind { Id = "thistle", Wild = "Pickable_Thistle", Radius = 0.4f, Cost = 1, Yield = 3 },

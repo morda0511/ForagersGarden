@@ -8,7 +8,7 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, and keep bees 
 ---
 
 ## Plants (Cultivator)
-- **Berry bushes:** Raspberry, Blueberry, Cloudberry (a sapling costs 5 berries)
+- **Berry bushes:** Raspberry, Blueberry, Cloudberry, Lingonberry (a sapling costs 5 berries)
 - **Wild herbs:** Dandelion, Thistle, Fiddlehead, Smoke puff (a sapling costs 1, gives 3 per harvest)
 - They stand there grown right away and grow their harvest back
 - **Mushrooms:** Mushroom, Yellow mushroom, Blue mushroom. Plant a mushroom to grow **spores**, plant the spores to grow mushrooms
