@@ -1,5 +1,10 @@
 # Changelog
 
+
+## 1.0.1
+
+### NEW FEATURES
+- The Lingonberry bush (new in Valheim 1.0) can be planted with the Cultivator, like the other berry bushes
 ## 1.0.0
 
 ### NEW FEATURES

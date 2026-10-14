@@ -19,7 +19,7 @@ namespace ForagersGarden
     {
         public const string ModGuid = "com.morda.foragersgarden";
         public const string ModName = "Forager's Garden";
-        public const string ModVersion = "1.0.0";
+        public const string ModVersion = "1.0.1";
         public const string ModAuthor = "Morda";
         private const string StoreAndCraftGuid = "com.morda.storeandcraft";
 

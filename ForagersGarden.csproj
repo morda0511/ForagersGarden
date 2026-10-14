@@ -9,8 +9,8 @@
     <AssemblyName>ForagersGarden</AssemblyName>
     <RootNamespace>ForagersGarden</RootNamespace>
     <Product>ForagersGarden</Product>
-    <Version>1.0.0</Version>
-    <ModVersion>1.0.0</ModVersion>
+    <Version>1.0.1</Version>
+    <ModVersion>1.0.1</ModVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <DebugType>portable</DebugType>
   </PropertyGroup>
