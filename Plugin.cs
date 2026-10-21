@@ -19,13 +19,14 @@ namespace ForagersGarden
     {
         public const string ModGuid = "com.morda.foragersgarden";
         public const string ModName = "Forager's Garden";
-        public const string ModVersion = "1.0.1";
+        public const string ModVersion = "1.0.2";
         public const string ModAuthor = "Morda";
         private const string StoreAndCraftGuid = "com.morda.storeandcraft";
 
         internal static ManualLogSource Log { get; private set; }
         internal static ConfigEntry<bool> Beehives { get; private set; }
         internal static ConfigEntry<bool> CultivatorPlants { get; private set; }
+        internal static ConfigEntry<bool> HerbsRegrow { get; private set; }
 
         private Harmony _harmony;
 
@@ -46,6 +47,8 @@ namespace ForagersGarden
                 "Ice, Royal Jelly and Crystal beehive in the hammer and their queen bee recipes at the workbench. Off = not offered any more (hives already built keep working). The vanilla beehive is untouched.");
             CultivatorPlants = Config.Bind("1 - General", "CultivatorPlants", true,
                 "Berry bushes, wild herbs, mushrooms and spores in the Cultivator. Off = not offered any more (plants already planted keep growing). Vanilla crops are untouched.");
+            HerbsRegrow = Config.Bind("1 - General", "HerbsRegrow", false,
+                "Planted herbs (Dandelion, Thistle, Fiddlehead, Smoke puff). Off = the plant is gone after you pick it, like a field crop (plant it again or let the scarecrow do it). On = it grows its harvest back like the wild one. Berry bushes always grow their berries back. Plants already standing follow the new setting when the world is loaded again.");
             Config.SettingChanged += OnSettingChanged;
 
             _harmony = new Harmony(ModGuid);
@@ -70,6 +73,8 @@ namespace ForagersGarden
                 return;
             if (e.ChangedSetting == Beehives)
                 QueenHives.ApplySetting();
+            if (e.ChangedSetting == HerbsRegrow)
+                WildCrops.ApplyHerbSetting();
             if (e.ChangedSetting == CultivatorPlants)
             {
                 bool changed = WildCrops.TryRegisterCultivator() | MushroomCrops.TryRegisterCultivator();

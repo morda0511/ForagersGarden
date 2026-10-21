@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.2
+
+### CHANGES
+- Planted herbs (Dandelion, Thistle, Fiddlehead, Smoke puff) are gone after you pick them, like a field crop. Before, they grew back on the same spot like the wild ones and could not be removed. Herbs already planted follow this too: the ones waiting to regrow are removed when the world loads
+- New setting **HerbsRegrow** (off by default): on = herbs grow back like before
+- Berry bushes and mushrooms are unchanged
+
 ## 1.0.1
 
 ### NEW FEATURES

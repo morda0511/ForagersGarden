@@ -10,7 +10,7 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, and keep bees 
 ## Plants (Cultivator)
 - **Berry bushes:** Raspberry, Blueberry, Cloudberry, Lingonberry (a sapling costs 5 berries)
 - **Wild herbs:** Dandelion, Thistle, Fiddlehead, Smoke puff (a sapling costs 1, gives 3 per harvest)
-- They stand there grown right away and grow their harvest back
+- They stand there grown right away. A planted herb is gone after you pick it, like a field crop (plant it again, or let the scarecrow do it). The bushes stay and grow their berries back
 - **Mushrooms:** Mushroom, Yellow mushroom, Blue mushroom. Plant a mushroom to grow **spores**, plant the spores to grow mushrooms
 - Only on cultivated ground
 
@@ -20,6 +20,7 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, and keep bees 
 
 ## Settings
 - **Beehives** and **CultivatorPlants** (config file, or the Morda Mod Manager with F10): off = they are not offered any more. Hives and plants you already built keep working
+- **HerbsRegrow** (off by default): on = planted herbs grow their harvest back like the wild ones instead of disappearing when picked
 - The vanilla beehive and vanilla crops are never changed
 
 ## With StoreAndCraft (optional)

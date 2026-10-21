@@ -28,6 +28,8 @@ namespace ForagersGarden
             public int Cost = 5;    // how many of the plant's own product one sapling costs
             public int Yield;       // what one harvest gives (0 = what the wild plant gives)
             public GameObject Crop, Sapling;
+            public float WildRespawn;          // the wild plant's own respawn time (minutes), kept for the HerbsRegrow switch
+            public GameObject WildHide;        // and its hide-when-picked part
         }
 
         private static readonly Kind[] Kinds =
@@ -135,6 +137,12 @@ namespace ForagersGarden
             Pickable grownPick = k.Crop.GetComponentInChildren<Pickable>(true);
             if (grownPick != null && k.Yield > 0)
                 grownPick.m_amount = k.Yield;
+            if (grownPick != null)
+            {
+                k.WildRespawn = grownPick.m_respawnTimeMinutes;
+                k.WildHide = grownPick.m_hideWhenPicked;
+            }
+            ApplyHerbMode(k);
             if (grownPick != null && grownPick.m_respawnTimeMinutes > 0f && ModelStays(k.Crop, grownPick))
             {
                 grownPick.m_defaultPicked = true;
@@ -148,6 +156,29 @@ namespace ForagersGarden
             k.Sapling = CloneSapling(carrotSapling, "sapling_sac_" + kind + "_" + k.Id, k, item, wild);
             if (grownPick != null && grownPick.m_respawnTimeMinutes > 0f && ModelStays(k.Crop, grownPick))
                 GhostReveal[k.Sapling.name] = grownPick.m_hideWhenPicked.name;
+        }
+
+        /// <summary>
+        /// Herbs (not the bushes) are picked like a field crop: the plant is gone after the harvest (the sapling grows
+        /// it again, the scarecrow replants it). With HerbsRegrow they keep the wild plant's respawn instead. Bushes
+        /// always stay and grow their berries back. Plants already standing keep what they were loaded with.
+        /// </summary>
+        private static void ApplyHerbMode(Kind k)
+        {
+            Pickable pick = k.Crop != null ? k.Crop.GetComponentInChildren<Pickable>(true) : null;
+            if (pick == null || k.Bush)
+                return;
+            bool regrow = Plugin.HerbsRegrow != null && Plugin.HerbsRegrow.Value;
+            pick.m_respawnTimeMinutes = regrow ? k.WildRespawn : 0f;
+            // no hide + no respawn = the plant is removed when picked
+            pick.m_hideWhenPicked = regrow ? k.WildHide : null;
+        }
+
+        /// <summary>The HerbsRegrow switch changed: the herbs planted from now on (and plants loaded from now on) follow it.</summary>
+        internal static void ApplyHerbSetting()
+        {
+            for (int i = 0; i < Kinds.Length; i++)
+                ApplyHerbMode(Kinds[i]);
         }
 
         /// <summary>
