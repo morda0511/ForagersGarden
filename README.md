@@ -17,9 +17,7 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, and keep bees 
 | ![Berry bushes](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-berries-160.png) | ![Wild herbs](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-herbs-160.png) | ![Mushrooms](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-mushrooms-160.png) |
 |:---:|:---:|:---:|
 | **Berry bushes**<br>Raspberry, Blueberry, Cloudberry, Lingonberry | **Wild herbs**<br>Dandelion, Thistle, Fiddlehead, Smoke puff | **Mushrooms**<br>Three kinds, grown from spores |
-
 | ![Ice beehive](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-ice-hive-160.png) | ![Royal Jelly beehive](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-royal-hive-160.png) | ![Crystal beehive](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-crystal-hive-160.png) |
-|:---:|:---:|:---:|
 | **Ice beehive**<br>Makes ice at the pace of honey | **Royal Jelly beehive**<br>Makes royal jelly | **Crystal beehive**<br>Makes crystal |
 
 **Works with:** Store & Craft 1.6.0+ (optional)
