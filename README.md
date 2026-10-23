@@ -12,7 +12,7 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, and keep bees 
 
 ![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/divider-norse.png)
 
-## At a glance
+<h2 align="center">At a glance</h2>
 
 | ![Berry bushes](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-berries-160.png) | ![Wild herbs](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-herbs-160.png) | ![Mushrooms](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-mushrooms-160.png) |
 |:---:|:---:|:---:|
@@ -24,7 +24,7 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, and keep bees 
 
 ![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/divider-norse.png)
 
-## Plants (Cultivator)
+<h2 align="center">Plants (Cultivator)</h2>
 
 - **Berry bushes:** Raspberry, Blueberry, Cloudberry, Lingonberry (a sapling costs 5 berries)
 - **Wild herbs:** Dandelion, Thistle, Fiddlehead, Smoke puff (a sapling costs 1, gives 3 per harvest)
@@ -34,14 +34,14 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, and keep bees 
 
 ![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/divider-norse.png)
 
-## Beehives (hammer)
+<h2 align="center">Beehives (hammer)</h2>
 
 - Craft an **Ice**, **Royal Jelly** or **Crystal Queen Bee** at the workbench (Queen Bee + Ice / Royal Jelly / Crystal)
 - Build the white / yellow / violet beehive with it. It makes ice / royal jelly / crystal at the pace of honey, the bees take its colour
 
 ![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/divider-norse.png)
 
-## Settings
+<h2 align="center">Settings</h2>
 
 - **Beehives** and **CultivatorPlants** (config file, or the Morda Mod Manager with F10): off = they are not offered any more. Hives and plants you already built keep working
 - **HerbsRegrow** (off by default): on = planted herbs grow their harvest back like the wild ones instead of disappearing when picked
@@ -49,19 +49,19 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, and keep bees 
 
 ![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/divider-norse.png)
 
-## With Store & Craft (optional)
+<h2 align="center">With Store & Craft (optional)</h2>
 
 - Forager's Garden **runs on its own**, Store & Craft is not needed
 - With **Store & Craft 1.6.0** or newer both work together: the scarecrow plants and harvests the bushes, herbs and mushrooms, auto-store (**N**) works on the beehives like on honey
 - Older Store & Craft versions (1.5 and older) had this content built in: Forager's Garden stays off next to them until Store & Craft is updated
 
-### Coming from Store & Craft 1.5 or older
+<h3 align="center">Coming from Store & Craft 1.5 or older</h3>
 
 Update Store & Craft to 1.6.0 and install Forager's Garden at the same time. The names are the same, so everything you built stays where it is, queens and spores in your chests too.
 
 ![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/divider-norse.png)
 
-## Install
+<h2 align="center">Install</h2>
 
 1. Install [BepInExPack Valheim](https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/)
 2. Put `ForagersGarden.dll` in `BepInEx/plugins/ForagersGarden/` (or use Thunderstore / r2modman)
