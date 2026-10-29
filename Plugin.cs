@@ -19,7 +19,7 @@ namespace ForagersGarden
     {
         public const string ModGuid = "com.morda.foragersgarden";
         public const string ModName = "Forager's Garden";
-        public const string ModVersion = "1.0.2";
+        public const string ModVersion = "1.1.0";
         public const string ModAuthor = "Morda";
         private const string StoreAndCraftGuid = "com.morda.storeandcraft";
 
@@ -27,6 +27,7 @@ namespace ForagersGarden
         internal static ConfigEntry<bool> Beehives { get; private set; }
         internal static ConfigEntry<bool> CultivatorPlants { get; private set; }
         internal static ConfigEntry<bool> HerbsRegrow { get; private set; }
+        internal static ConfigEntry<bool> DecorTrees { get; private set; }
 
         private Harmony _harmony;
 
@@ -49,6 +50,8 @@ namespace ForagersGarden
                 "Berry bushes, wild herbs, mushrooms and spores in the Cultivator. Off = not offered any more (plants already planted keep growing). Vanilla crops are untouched.");
             HerbsRegrow = Config.Bind("1 - General", "HerbsRegrow", false,
                 "Planted herbs (Dandelion, Thistle, Fiddlehead, Smoke puff). Off = the plant is gone after you pick it, like a field crop (plant it again or let the scarecrow do it). On = it grows its harvest back like the wild one. Berry bushes always grow their berries back. Plants already standing follow the new setting when the world is loaded again.");
+            DecorTrees = Config.Bind("1 - General", "DecorTrees", true,
+                "Decoration trees in the Cultivator, with their own Decor button: every tree species as a small, a half-grown and a grown tree. They only decorate: they do not grow, give no wood, and the hammer removes them. Off = not offered any more (trees already built stay).");
             Config.SettingChanged += OnSettingChanged;
 
             _harmony = new Harmony(ModGuid);
@@ -73,6 +76,8 @@ namespace ForagersGarden
                 return;
             if (e.ChangedSetting == Beehives)
                 QueenHives.ApplySetting();
+            if (e.ChangedSetting == DecorTrees && TreeDecor.TryRegisterCultivator() && Player.m_localPlayer != null)
+                QueenHives.RefreshKnown(Player.m_localPlayer);
             if (e.ChangedSetting == HerbsRegrow)
                 WildCrops.ApplyHerbSetting();
             if (e.ChangedSetting == CultivatorPlants)

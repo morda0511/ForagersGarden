@@ -1,6 +1,6 @@
 {
     "name":  "ForagersGarden",
-    "version_number":  "1.0.2",
+    "version_number":  "1.1.0",
     "website_url":  "https://github.com/morda0511/ForagersGarden",
     "description":  "Grow what you would forage: berry bushes, wild herbs and mushrooms with the Cultivator. Ice, Royal Jelly and Crystal beehives. Formerly part of StoreAndCraft.",
     "dependencies":  [

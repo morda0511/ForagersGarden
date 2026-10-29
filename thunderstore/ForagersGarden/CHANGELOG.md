@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0
+
+### NEW FEATURES
+- **Decoration trees** in the Cultivator, under the new **Decor** button of the build menu: 16 tree kinds (beech, birch, autumn birch, oak, fir, big fir, pine, snow pines and firs, Ashlands trees) in three sizes each: small, half-grown and grown. They are decoration only: they do not grow, cannot be chopped and give no wood. The hammer removes them and returns the materials. They cost the seeds or cones of the kind (2 / 4 / 6), the Ashlands trees cost wood. Each one has its own picture as its icon
+- New setting **DecorTrees** (on by default) to switch them off
+
 ## 1.0.2
 
 ### CHANGES

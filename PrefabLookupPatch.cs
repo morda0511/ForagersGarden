@@ -19,6 +19,8 @@ namespace ForagersGarden
                 found = WildCrops.PrefabForHash(hash);
             if (found == null)
                 found = QueenHives.PrefabForHash(hash);
+            if (found == null)
+                found = TreeDecor.PrefabForHash(hash);
             if (found != null)
                 __result = found;
         }
