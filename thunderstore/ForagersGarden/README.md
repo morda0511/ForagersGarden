@@ -10,7 +10,7 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, decorate with 
 
 [Bug reports](https://github.com/morda0511/ForagersGarden/issues) · [Discord](https://discord.gg/sHZzWFBpRm) · [GitHub](https://github.com/morda0511/ForagersGarden) · [Store & Craft](https://github.com/morda0511/StoreAndCraft)
 
-![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-at-a-glance.png)
+![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-at-a-glance-green.png)
 
 | ![Berry bushes](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-berries-160.png) | ![Wild herbs](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-herbs-160.png) | ![Mushrooms](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-mushrooms-160.png) | ![Decoration trees](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/icon-trees-160.png) |
 |:---:|:---:|:---:|:---:|
@@ -20,7 +20,7 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, decorate with 
 
 **Works with:** Store & Craft 1.6.0+ (optional)
 
-![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-plants-cultivator.png)
+![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-plants-cultivator-green.png)
 
 ### Plants
 - **Berry bushes:** Raspberry, Blueberry, Cloudberry, Lingonberry (a sapling costs 5 berries)
@@ -35,13 +35,13 @@ Plant berry bushes, wild herbs and mushrooms with the Cultivator, decorate with 
 - Decoration only: they do not grow, cannot be chopped and give no wood. Remove them with the **hammer** and you get the materials back
 - They cost the seeds or cones of the kind (2 / 4 / 6), the Ashlands trees cost wood
 
-![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-beehives-hammer.png)
+![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-beehives-hammer-green.png)
 
 ### Beehives
 - Craft an **Ice**, **Royal Jelly** or **Crystal Queen Bee** at the workbench (Queen Bee + Ice / Royal Jelly / Crystal)
 - Build the white / yellow / violet beehive with it in the hammer. It makes ice / royal jelly / crystal at the pace of honey, the bees take its colour
 
-![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-settings.png)
+![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-settings-green.png)
 
 The file is `BepInEx/config/com.morda.foragersgarden.cfg`, or use the Morda Mod Manager (**F10**).
 
@@ -54,7 +54,7 @@ The file is `BepInEx/config/com.morda.foragersgarden.cfg`, or use the Morda Mod 
 
 The vanilla beehive and vanilla crops are never changed.
 
-![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-with-store-and-craft.png)
+![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-with-store-and-craft-green.png)
 
 ### With Store & Craft (optional)
 - Forager's Garden **runs on its own**, Store & Craft is not needed
@@ -64,7 +64,7 @@ The vanilla beehive and vanilla crops are never changed.
 ### Coming from Store & Craft 1.5 or older
 - Update Store & Craft to 1.6.0 and install Forager's Garden at the same time. The names are the same, so everything you built stays where it is, queens and spores in your chests too
 
-![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-more-mods-by-morda.png)
+![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-more-mods-by-morda-green.png)
 
 | [![Store and Craft](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/logo-storeandcraft-160.png)](https://thunderstore.io/c/valheim/p/Morda/StoreAndCraft/) | [![Workbenches+](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/logo-workbenches-192.png)](https://thunderstore.io/c/valheim/p/Morda/WorkbenchesPlus/) | [![Morda's Gearhold](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/logo-gearhold-192.png)](https://thunderstore.io/c/valheim/p/Morda/MordasGearhold/) | [![Valheim Mannequins](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/logo-mannequins-192.png)](https://thunderstore.io/c/valheim/p/Morda/ValheimMannequins/) |
 |:---:|:---:|:---:|:---:|
@@ -74,7 +74,7 @@ The vanilla beehive and vanilla crops are never changed.
 |:---:|:---:|:---:|:---:|
 | **[ServerRates](https://thunderstore.io/c/valheim/p/Morda/ServerRates/)** | **[Smooth Build Repair](https://thunderstore.io/c/valheim/p/Morda/SmoothBuildRepair/)** | **[Any Angle](https://thunderstore.io/c/valheim/p/Morda/AnyAngle/)** | **[Easy Build Cam](https://thunderstore.io/c/valheim/p/Morda/EasyBuildCam/)** |
 
-![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-install.png)
+![](https://raw.githubusercontent.com/morda0511/ForagersGarden/main/thunderstore-assets/foragers-garden/dividers/divider-install-green.png)
 
 1. Install [BepInExPack Valheim](https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/)
 2. Put `ForagersGarden.dll` in `BepInEx/plugins/ForagersGarden/` (or use Thunderstore / r2modman)
